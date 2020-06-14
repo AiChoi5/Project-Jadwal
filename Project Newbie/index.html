@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jadwal Shalat</title>
+        <link rel="stylesheet" href="src/style/style.css">
+    </head>
+    <body>
+        <header>
+            <div id="judul-web">
+                <h1>Jadwal Shalat</h1>
+            </div>
+            <cari-data></cari-data>
+            
+        </header>
+        <main>
+            <div id="waktu-skrg">
+                <h4><span class="date"></span>&nbsp;<span class="time"></span></h4>
+            </div>
+            <content>
+                <tampil-data></tampil-data>
+            </content>
+        </main>
+        <footer>
+            <p>Copyright &copy 2020 Jadwal Shalat</p>
+        </footer>
+        <!-- <script src="node_modules/moment/moment.js"></script>
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="src/script/components/cari-data.js"></script>
+        <script src="src/script/components/tampil-data.js"></script>
+        <script src="src/script/components/clock.js"></script>
+        <script src="src/script/view/main.js"></script> -->
+        <script src="app.js" type="module"></script>
+    </body>
+</html>
