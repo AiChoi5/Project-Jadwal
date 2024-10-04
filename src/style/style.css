@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
+* {
+    box-sizing:border-box;
+}
+body {
+    margin:0;
+    padding:0;
+    text-align:center;
+    background-color:rgb(173, 224, 178);
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+header {
+    display:flex;
+    justify-content:space-between;
+    padding:15px;
+    overflow:hidden;
+    background-color:#48b860;
+}
+#judul-web h1 {
+    font-size:40px;
+    margin:0;
+    color:rgb(19, 19, 19);
+}
+
+
+#waktu-skrg {
+    width: 100%;
+    background-color: white;
+    padding: 5px;
+    color: black;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+#waktu-skrg h4 {
+    margin:0;
+}
+content {
+    padding:10px;
+    width:100%;
+    margin:auto;
+}
